@@ -1,0 +1,126 @@
+* {
+  margin: 2 0 0 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 1130px;
+  max-width: 95%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-image: url("Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,  0,  0,  0.1);
+}
+
+.container button {
+  background-color: rgb(184, 76, 250);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 12px 28px;
+  border-radius: 100px;
+  transition-duration: 0.5s;
+}
+
+.container button:hover {
+  background-color: rgb(0, 255, 247);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  /* font-size: 25px; */
+  color: #000;
+  margin-bottom: 20px;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: justify;
+  width: 300px;
+  font-size: 16px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  height: 100vh; /* This centers it vertically in the viewport */
+}
+
+video {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* Keeps the video content scaled within the 200x200 box */
+}
+
+.images {
+  float: right;
+  display: flex;
+  gap: 20px;
+}
+
+.images img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover; /* Keeps the video content scaled within the 200x200 box */
+}
+.landscape,
+.alphabet {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.footer {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #1d04fc;
+}
+
+.footer p {
+  padding: 5px;
+}
+
+.text p {
+  text-align: justify;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.developer {
+  position: relative;
+  left: 910px;
+  bottom: 125px;
+}
+
+.developer p {
+  text-align: left;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Sign Language</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+   <h1>AMERICAN SIGN LANGUAGE RECOGNITION MODEL</h1>
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <p>American Sign Language (ASL) is a complete, natural language that uses hand shapes, movements, facial expressions, and body language to convey meaning. It's primarily used by the Deaf and hard-of-hearing communities in the United States and parts of Canada. ASL has its own unique grammar, syntax, and structure, distinct from spoken English, and it is not just a visual representation of English but a language in its own right. ASL is part of a larger family of sign languages around the world, each of which developed independently, much like spoken languages.</p>
+            </div>
+               <div class="video">
+                   <video id="video" width="400" height="400" autoplay></video>
+               </div>
+            <div class="images">
+                <img src="Images\symbols.png" alt="ASL Alphabet" class="alphabet">
+            </div>
+        </div>
+        <div class="footer">
+            <p id="prediction">Prediction: N/A</p>
+            <p id="confidence">Confidence: N/A</p>
+        </div>
+        <button onclick="captureImage()">Capture and Predict</button>
+        <div class="developer">
+            <p>Developed By:</p>
+            <p>Reyaansh Dhammi (35291102022)</p>
+            <p>Ishan Gupta (08791102022)</p>
+        </div>
+    </div>
+</body>
+</html>
